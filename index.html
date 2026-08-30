@@ -146,6 +146,32 @@
         .card-green .badge { border: 2px solid #b0ebd3; color: #4db38a;}
         .card-yellow .badge { border: 2px solid #f6d365; color: #d4a72c;}
         .card-purple .badge { border: 2px solid #cd9cf2; color: #9c4be8;}
+
+        /* สไตล์สำหรับปุ่มดาวน์โหลดด้านล่าง */
+        .download-container {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        .download-btn {
+            display: inline-block;
+            background-color: #fff;
+            color: #ff6f91;
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 15px 40px;
+            border-radius: 50px;
+            border: 4px solid #ff6f91;
+            box-shadow: 6px 6px 0px #ff96af;
+            transition: all 0.3s ease;
+        }
+        .download-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 8px 8px 0px #ff96af;
+            background-color: #fff0f3;
+            color: #ff4772;
+        }
     </style>
 </head>
 <body>
@@ -589,7 +615,14 @@
                 <li><a href="https://youtu.be/b3hTAGEoaNw" target="_blank">(195-195) 195 อัปเดตแนวข้อสอบครั้งที่ 8 30 Jun 2026</a></li>
             </ul>
         </div>
-
     </div>
+
+    <!-- ปุ่มดาวน์โหลดเอกสารด้านล่างสุด -->
+    <div class="download-container">
+        <a href="https://drive.google.com/drive/folders/1w_C1EQ4Q6A1f0Q3-7fJdMyCGUjRb-Lel?usp=sharing" target="_blank" class="download-btn">
+            📂 ดาวน์โหลดเอกสารประกอบการเรียน
+        </a>
+    </div>
+
 </body>
 </html>
